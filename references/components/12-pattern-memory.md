@@ -1,159 +1,50 @@
 # 12 — Pattern Memory & Trajectory Tracking
 
-> **The coach who reads only the session reacts. The coach who reads the pattern serves a trajectory.** Pattern memory turns discrete sessions into a coherent picture of where the student is going. Trajectory tracking names the arc honestly — preventing despair at a regression that is, in pattern, a climb, and complacency at a breakthrough that is, in pattern, fragile.
+Pattern memory turns isolated sessions into a coherent trajectory. Without it the coach is reactive — responding only to today's evidence and missing the arc that actually determines whether the student is improving, plateauing or regressing.
 
----
+## Two Required Reads
 
-## What It Is
+**Session read:** what happened today — scores, composure, specific collapses, response to intervention.  
+**Pattern read:** what sessions in aggregate reveal — characteristic gaps, rate of change, conditions that reliably break the student.
 
-**Session read:** what happened today — score, composure, specific collapses.
-**Pattern read:** what sessions in aggregate reveal — characteristic gaps, rate of change, conditions that break the student.
+Both are required. Session read alone is reactive. Pattern read alone misses live texture.
 
-Both are required. The session read is raw material; the pattern read is synthesis. A coach who reads only sessions is reactive. A coach who reads only patterns misses the live texture.
+## The Three-Occurrence Rule
 
-**The three-occurrence rule:** Once is an event. Twice is a coincidence worth watching. Three times is a pattern. Heuristic, not absolute — deviations are judgment calls (Component 10) owned as such.
+Once is an event. Twice is a coincidence worth watching. Three times is a pattern. Heuristic, not absolute — deviations are judgment calls (Component 10) and must be owned as such.
 
----
+## What to Track
 
-## Why It Matters
+- Recurring load-bearing gaps (same collapse under similar conditions).
+- Conditions that break the student (authority, time pressure, emotional stakes, status differential, silence, etc.).
+- Rate of change on the primary gap: improving, flat, or regressing.
+- Transfer evidence: does the corrected behaviour appear in real-life conversations the student brings?
+- Coach consistency signals: same behaviour scored differently across sessions.
 
-**Despair error:** Coach reads a regression as the whole story; trajectory call reads "regressing." Student approaches next session with anxiety. The one-off regression becomes a trend — caused by the session-only read.
+## Trajectory Language
 
-**Complacency error:** Coach reads a breakthrough as arrival; declares advancement. The breakthrough, not yet stabilised, collapses. Same root cause.
+Keep it honest and short:
+- **Improving** — concrete behavioural evidence of change under comparable or higher load.
+- **Flat** — same scores, same collapses, no new conditions survived.
+- **Regressing** — previously held behaviour now fails under loads previously survived.
 
----
+Do not confuse effort, insight or verbal agreement with trajectory. Trajectory is behavioural evidence across time.
 
-## Five Disciplines
+## Disciplines
 
-1. **Pattern read at every session open** — two minutes with the last several logs. Form a trajectory hypothesis. Hold provisionally; update with the session's events.
-2. **Trajectory ≠ score** — different axes. A climbing student may score low today; a plateaued student may score high. Report both honestly and separately. Never round one to reflect the other.
-3. **Name the trajectory honestly in the log** — specific: *"warmth improving (4→5 over five sessions); frame stable at 6; blend plateaued at 4; load-tolerance untested."*
-4. **Pattern informs intervention; session confirms or revises** — arrive with hypotheses; test against the session; revise accordingly.
-5. **Track conditions, not just scores** — the student who collapses under fatigue has a different pattern from the student who collapses under load, even if scores look the same.
-
----
+- Consult prior logs before every session.
+- Explicitly name whether today's collapse is new or a known pattern.
+- When a pattern is clear, make it the load-bearing gap until it moves.
+- Update the pattern read after every session, not only at formal reviews.
+- Separate current score from trajectory sentence in every log.
 
 ## Failure Modes
 
-| Failure | Description | Recovery |
-|---------|-------------|----------|
-| Ahistorical coaching | Each session treated as discrete | Two-minute pre-session pattern read |
-| Dramatic-session bias | Breakthroughs/collapses over-weighted; ordinary sessions forgotten | Weight all sessions equally |
-| Premature pattern recognition | One occurrence treated as a pattern | Apply three-occurrence rule |
-| Delayed pattern recognition | Five-session pattern treated as a series of one-offs | Cross-session review every 5–10 sessions |
-| Trajectory inflation | Score rounded up to reflect a good arc | Separate the axes |
-| Trajectory deflation | "Plateaued" held when scores are clearly climbing | Name the climb honestly with caveats |
+- Treating every session as independent (no memory).
+- Seeing only the arc and missing today's concrete evidence.
+- Inflating trajectory language to match the student's hope or the coach's investment.
+- Dropping a recurring gap because it is uncomfortable or "old news."
 
 ---
 
-## Concrete Operations
-
-**Pre-session (2 min):** Pull last several logs. Form trajectory hypothesis. Hold provisionally.
-
-**Post-session:** Write trajectory call — one disciplined sentence naming the arc in each load-bearing capacity. Specific, honest, neither inflated nor deflated.
-
-**Every 5–10 sessions:** Cross-session review. Ask what the aggregate reveals that per-session reads missed. Catches: calibration drift, contrast-driven scoring, trajectory inflation, silent benchmark slide.
-
-**Periodically:** Cross-student review. Ask whether patterns across students are consistent, or whether the coach's reading has drifted. Uncomfortable. Essential.
-
----
-
-## Five Trajectory Patterns
-
-- **Steady climb** — continue, but test under increased load before declaring the capacity stable.
-- **Plateau** — change the intervention; the current approach has exhausted its movement.
-- **Regression-under-load** — capacity not yet stable; continue at the load where it holds, with gradual escalation. Not a failure; a signal.
-- **Two-steps-forward-one-back** — healthy if highs are rising; unhealthy if highs are stable and falls are deepening.
-- **Breakthrough-then-collapse** — real but not yet stable. Stabilise the breakthrough; do not advance beyond it.
-
-*The session is the data point. The pattern is the synthesis. The trajectory is the named arc. Held together, they produce coaching that is honest about today, honest about the arc, and honest about the difference between the two.*
-
----
-
-## Script: Trajectory Analyzer
-
-**Purpose:** Surface per-criterion score arcs across sessions — "Is this specific skill actually improving, plateauing, or decaying?"
-**Runs:** Automatically at end of every 5th session. Mandatory before any phase advancement. On request at any time.
-**Minimum sessions:** 5 (error if fewer: "Insufficient data. Run again after [5-N] more sessions.")
-**Saved to:** Notion → Progress Tracker → Trajectory Reports
-
-### Rules
-1. NEVER moves a score retroactively
-2. NEVER overrides a phase sequencing decision
-3. NEVER calls a student "ready to advance"
-4. Flags patterns only — the coach makes all decisions
-5. NON-COMPLIANT sessions included in arc but flagged separately
-
-### Trend Definitions
-
-| Label | Condition |
-|-------|-----------|
-| ↑ IMPROVING | Consistent upward movement across 3+ consecutive sessions |
-| ↓ DECAYING | Consistent downward movement across 3+ sessions |
-| → PLATEAUING | No meaningful change across 3+ consecutive sessions |
-| 🔄 INCONSISTENT | No clear pattern — up and down without direction |
-
-### Output Format
-
-```
-==================================================
-TRAJECTORY REPORT — [Date Range]
-SESSIONS ANALYZED: [N]
-PHASE: [Current Phase]
-==================================================
-
-CRITERION ARCS:
-
-1. Overall Score
-   Sessions: [4, 4, 5, 5, 6] → Trend: ↑ IMPROVING
-   Average: [4.8/10] | Variance: [LOW / MEDIUM / HIGH]
-   Note: [observation]
-
-2. Frame Control
-   Sessions: [3, 4, 4, 5, 6] → Trend: ↑ IMPROVING
-   Note: [observation]
-
-3. Anchor Deployment
-   Sessions: [absent, absent, attempted, attempted, successful]
-   Trend: ↑ IMPROVING | Note: [observation]
-
-4. Filler Words
-   Sessions: [8, 6, 5, 5, 3] → Trend: ↑ IMPROVING
-   Note: [observation]
-
-5. Clarity
-   Sessions: [5, 5, 6, 5, 6] → Trend: → PLATEAUING
-   Note: [plateau detected, increase drill pressure]
-
-6. Pace Control
-   Sessions: [rushed, rushed, balanced, rushed, balanced]
-   Trend: → INCONSISTENT | Note: [observation]
-
-7. Pitch Variation
-   Sessions: [flat, flat, flat, moderate, flat]
-   Trend: → INCONSISTENT | Note: [observation]
-
-8. Stamina
-   Sessions: [4, 5, 5, 6, 6] → Trend: ↑ IMPROVING
-   Note: [observation]
-
-9. Mode Accuracy
-   Sessions: [incorrect, incorrect, correct, incorrect, correct]
-   Trend: → INCONSISTENT | Note: [observation]
-
-10. Vocabulary Range
-    Sessions: [limited, limited, moderate, limited, moderate]
-    Trend: → INCONSISTENT | Note: [observation]
-
-==================================================
-SUMMARY FLAGS:
-
-✅ IMPROVING:    [criteria showing consistent upward arc]
-⚠️  PLATEAUING:  [criteria showing no movement across 3+ sessions]
-❌ DECAYING:     [criteria showing downward movement]
-🔄 INCONSISTENT: [criteria with no clear pattern]
-
-PRIMARY CONCERN: [the one criterion with the weakest arc]
-COACH ACTION: [one specific intervention tied to primary concern]
-==================================================
-```
+*Pattern memory is how the coach serves the student across months instead of only across minutes. Without it, even excellent single sessions fail to compound.*
