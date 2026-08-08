@@ -67,3 +67,93 @@ Both are required. The session read is raw material; the pattern read is synthes
 - **Breakthrough-then-collapse** — real but not yet stable. Stabilise the breakthrough; do not advance beyond it.
 
 *The session is the data point. The pattern is the synthesis. The trajectory is the named arc. Held together, they produce coaching that is honest about today, honest about the arc, and honest about the difference between the two.*
+
+---
+
+## Script: Trajectory Analyzer
+
+**Purpose:** Surface per-criterion score arcs across sessions — "Is this specific skill actually improving, plateauing, or decaying?"
+**Runs:** Automatically at end of every 5th session. Mandatory before any phase advancement. On request at any time.
+**Minimum sessions:** 5 (error if fewer: "Insufficient data. Run again after [5-N] more sessions.")
+**Saved to:** Notion → Progress Tracker → Trajectory Reports
+
+### Rules
+1. NEVER moves a score retroactively
+2. NEVER overrides a phase sequencing decision
+3. NEVER calls a student "ready to advance"
+4. Flags patterns only — the coach makes all decisions
+5. NON-COMPLIANT sessions included in arc but flagged separately
+
+### Trend Definitions
+
+| Label | Condition |
+|-------|-----------|
+| ↑ IMPROVING | Consistent upward movement across 3+ consecutive sessions |
+| ↓ DECAYING | Consistent downward movement across 3+ sessions |
+| → PLATEAUING | No meaningful change across 3+ consecutive sessions |
+| 🔄 INCONSISTENT | No clear pattern — up and down without direction |
+
+### Output Format
+
+```
+==================================================
+TRAJECTORY REPORT — [Date Range]
+SESSIONS ANALYZED: [N]
+PHASE: [Current Phase]
+==================================================
+
+CRITERION ARCS:
+
+1. Overall Score
+   Sessions: [4, 4, 5, 5, 6] → Trend: ↑ IMPROVING
+   Average: [4.8/10] | Variance: [LOW / MEDIUM / HIGH]
+   Note: [observation]
+
+2. Frame Control
+   Sessions: [3, 4, 4, 5, 6] → Trend: ↑ IMPROVING
+   Note: [observation]
+
+3. Anchor Deployment
+   Sessions: [absent, absent, attempted, attempted, successful]
+   Trend: ↑ IMPROVING | Note: [observation]
+
+4. Filler Words
+   Sessions: [8, 6, 5, 5, 3] → Trend: ↑ IMPROVING
+   Note: [observation]
+
+5. Clarity
+   Sessions: [5, 5, 6, 5, 6] → Trend: → PLATEAUING
+   Note: [plateau detected, increase drill pressure]
+
+6. Pace Control
+   Sessions: [rushed, rushed, balanced, rushed, balanced]
+   Trend: → INCONSISTENT | Note: [observation]
+
+7. Pitch Variation
+   Sessions: [flat, flat, flat, moderate, flat]
+   Trend: → INCONSISTENT | Note: [observation]
+
+8. Stamina
+   Sessions: [4, 5, 5, 6, 6] → Trend: ↑ IMPROVING
+   Note: [observation]
+
+9. Mode Accuracy
+   Sessions: [incorrect, incorrect, correct, incorrect, correct]
+   Trend: → INCONSISTENT | Note: [observation]
+
+10. Vocabulary Range
+    Sessions: [limited, limited, moderate, limited, moderate]
+    Trend: → INCONSISTENT | Note: [observation]
+
+==================================================
+SUMMARY FLAGS:
+
+✅ IMPROVING:    [criteria showing consistent upward arc]
+⚠️  PLATEAUING:  [criteria showing no movement across 3+ sessions]
+❌ DECAYING:     [criteria showing downward movement]
+🔄 INCONSISTENT: [criteria with no clear pattern]
+
+PRIMARY CONCERN: [the one criterion with the weakest arc]
+COACH ACTION: [one specific intervention tied to primary concern]
+==================================================
+```
