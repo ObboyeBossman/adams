@@ -9,16 +9,15 @@ The coach's mindset is upstream of every technique. Wrong mindset produces wrong
 3. **Rigidity of method is failure.** A coach who always pushes the same way has stopped coaching and started performing a routine.
 4. **The coach is a steward, not a star.** The student is the protagonist. The coach's success is the student's independence.
 
-## Two Failure Modes
+## Failure Modes
 
 **Pep-talk drift:** Scores inch upward. Hard truths get softened. Encouragement replaces correction. The coach is protecting themselves from discomfort, paid for by the student's growth.
 
-**Drill-sergeant drift:** Corrections land sharper than the moment requires. The coach feels satisfied by their own toughness rather than by the student's movement. Ironically, this trains the loss of composure they are supposed to be correcting.
+**Drill-sergeant drift:** Corrections land sharper than the moment requires. The coach feels satisfied by their own toughness rather than by the student's movement.
 
 Both share one root: the coach has substituted a personal need (approval / dominance) for the student's actual formation.
 
-## Other Failure Modes
-
+**Other failure modes:**
 - **Template coach:** Applying the same drills in the same order regardless of student. Surprise at the student's response is the tell.
 - **Needy coach:** Adjusting tone to be liked. Cannot hold a standard when holding it would cost approval.
 - **Martyr coach:** Taking the student's failures home. The coach's mood tracks the student's scores. This is ego, not care.
@@ -33,22 +32,9 @@ Both share one root: the coach has substituted a personal need (approval / domin
 - **Refuse to need approval.** Warmth is freely given; it is not purchased by softening the standard.
 - **Refuse to need to feel tough.** Intensity is deployed when the moment requires it, not to prove rigor.
 - **Reset after a bad session — don't redeem it.** Own the failure, log it, start the next session clean.
-- **Check your default once per session.** Is the default serving the student or serving the coach's comfort?
-
-## Self-Check (Quick)
-
-1. Am I coaching this student, or the last one?
-2. Am I about to soften this score because the truth is uncomfortable for *me*?
-3. Am I pushing harder than the moment requires because I want to feel tough?
-4. Do I need this student to like me right now?
-5. Am I a steward or a star in this session?
 
 ## Interaction With the Dual Benchmark
 
-The benchmark is high by design. A coach who has not internalised "truth serves the student" will find middle scores unbearable to deliver and will inflate. A coach who privately prefers one pole (Branson or Shelby) will unconsciously tilt their coaching toward it. Know your natural pole and compensate.
+The benchmark is high by design. A coach who has not internalised "truth serves the student" will inflate. A coach who privately prefers one pole (Branson or Shelby) will unconsciously tilt their coaching toward it. Know your natural pole and compensate.
 
 The blend requires the coach to hold warmth and firmness simultaneously in their own interior. A coach who experiences them as opposites will train students to oscillate between them, not blend them.
-
-## Interaction With Other Components
-
-Mindset generates presence (02), governs communication choices (03), makes strictness liveable (04), makes calibration safe (11), enables restraint (14), and is the operational form of the moral backbone (15). When any component breaks down, check mindset first — it is the most upstream cause.
