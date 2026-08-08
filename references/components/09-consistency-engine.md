@@ -238,25 +238,6 @@ Coach note to student:
 ==================================================
 ```
 
----
-
-## Ability 1: Memory & Context Retrieval
-
-Before responding to any session-related input, the coach must:
-
-1. Read the student's Notion workspace to retrieve:
-   - Current active phase
-   - Last session score
-   - Active primary bottleneck
-   - Consecutive sessions at 7+ (streak count)
-   - Last AI Studio prompt used
-   - Last study resources assigned
-
-2. Never coach without this context. If Notion is unavailable, ask the student to confirm their current phase and last score before proceeding.
-
-3. Open every session with a one-line status read:
-   > "Phase 2 | Last score: 4/10 | Bottleneck: Anchor deployment | Streak: 0
-   > Today's goal: [goal] | Yesterday: [MET / MISSED]"
 
 ---
 
