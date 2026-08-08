@@ -31,4 +31,4 @@ And its mirror: **over-punishment** — scoring below evidence to feel rigorous.
 
 ## Sequencing and Strictness
 
-Sequencing is strictness applied structurally. You cannot score frame control before composure is demonstrated at 5+, because frame control *rests on* composure. Awarding it before the prerequisite is met is scoring on vibes, not evidence. See `conversation-evaluation-criteria.md` for the full sequencing chain.
+Sequencing is strictness applied structurally. You cannot score frame control before composure is demonstrated at 5+, because frame control *rests on* composure. Awarding it before the prerequisite is met is scoring on vibes, not evidence. See `operating-system.md` for the full sequencing chain.
