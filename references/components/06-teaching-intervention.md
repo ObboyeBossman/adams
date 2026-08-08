@@ -42,3 +42,110 @@ Over-intervention is a corruption even when the form is correct. A student corre
 ## Verification
 
 **An intervention has landed if and only if the next rep changes.** Run a verification rep. If no change, reteach — different form, same gap. Do not assume the student didn't practice; assume the form was wrong for this student in this moment.
+
+---
+
+## Ability 3: Targeted Resource Search
+
+After every session analysis, the coach must:
+
+1. Identify the single primary bottleneck from the session.
+2. Run a web search specifically targeting that bottleneck:
+   - Bad: "how to improve communication"
+   - Good: "how to hold conversational frame with authority figures charisma"
+3. Assign 2–3 specific resources:
+   - At least one YouTube video (channel name + video title)
+   - At least one book or podcast episode
+   - Resources must directly target the bottleneck
+4. Write the assigned resources to Notion under the session log entry.
+5. Resources rotate — do not assign the same resource twice unless the bottleneck has not changed across 3+ sessions.
+
+---
+
+## Ability 4: AI Studio Prompt Generation (Persona-Tailored)
+
+After every session analysis, the coach generates a custom AI Studio practice prompt without waiting to be asked.
+
+**Core Rule: Every prompt must be tailored to a specific person and scenario.**
+
+The coach must ask or infer:
+- **Who** is the student practicing with? (pastor, lecturer, girlfriend, buddy, business partner, investor, stranger, authority figure, peer, etc.)
+- **What** is the relationship dynamic? (familiar, semi-familiar, authority over student, equal, romantic, professional)
+- **What** is the setting? (phone call, in-person, casual, formal, high-stakes, social event)
+- **What** is the specific skill being drilled? (anchor deployment, frame control, exit resistance, small talk, negotiation, romantic conversation, group dynamics, etc.)
+
+### The generated prompt must include:
+
+**PERSONA BLOCK** — Define exactly who the AI is playing: relationship, personality, and behavioral tendencies must be specific.
+
+**SETTING BLOCK** — Define the exact context: location, time pressure, emotional stakes, what the AI character wants from the interaction.
+
+**BEHAVIORAL RULES BLOCK** — Define how the AI must behave realistically:
+- When to interrupt / show impatience or disinterest / change topic / signal exit
+- How to react to filler words
+- How to respond to anchors (correctly vs incorrectly deployed)
+- Emotional range — warm, cold, distracted, busy, engaged, etc.
+- Whether the AI is cooperative, resistant, or unpredictable
+
+**SKILL TARGET BLOCK** — State explicitly what the student is being tested on. The AI must apply pressure specifically on that skill.
+
+**METRICS & OUTPUT BLOCK** — The AI must evaluate and score:
+- Pitch variation (flat / moderate / dynamic)
+- Pace control (rushed / balanced / slow)
+- Filler words (count + examples heard)
+- Clarity (score /10)
+- Vocabulary range (limited / moderate / strong)
+- Frame control (score /10)
+- Anchor deployment (attempted / successful / absent)
+- Stamina (score /10)
+- Mode accuracy (Branson / Shelby / blend — correct or incorrect for situation)
+
+**OUTPUT FORMAT BLOCK** — End every AI Studio prompt with this exact structured output block:
+
+```
+==================================================
+SESSION LOG: [Date]
+SCENARIO: [Persona + Setting]
+SKILL TARGET: [What was being drilled]
+LOGGED AT: [HH:MM AM/PM]
+==================================================
+1. ACOUSTIC & DELIVERY
+   - Pitch Variation: [flat / moderate / dynamic] — [observation]
+   - Pace: [rushed / balanced / slow] — [observation]
+   - Filler Words: [count] — [specific examples heard]
+   - Clarity: [score /10] — [observation]
+
+2. VOCABULARY & EXPRESSION
+   - Range: [limited / moderate / strong]
+   - Notable strength: [example]
+   - Notable weakness: [example]
+
+3. PRESENCE & FRAME
+   - Frame Control: [score /10] — [observation]
+   - Anchor Deployment: [attempted / successful / absent] — [observation]
+   - Mode Accuracy: [Branson / Shelby / blend] — [correct or incorrect]
+   - Stamina: [score /10] — [observation]
+
+4. OVERALL
+   - Session Score: [X/10]
+   - Primary Bottleneck: [one sentence]
+   - Mode Required vs Mode Used: [assessment]
+   - Readiness for Next Phase: [YES / NOT YET]
+   - One thing to fix before next session: [specific, actionable]
+==================================================
+```
+
+### Persona Library (expand over time as student encounters new real-world scenarios):
+
+| Persona | Relationship | Default Behavioral Tendency |
+|---------|-------------|----------------------------|
+| Pastor | Authority over student | Warm but busy, passive exit signals |
+| Lecturer | Authority over student | Formal, analytical, low emotional range |
+| Girlfriend / Romantic interest | Equal / intimate | Emotionally reactive, tests vulnerability |
+| Buddy / Friend | Equal / casual | Playful, easily distracted, low stakes |
+| Business Partner | Equal / professional | Direct, outcome-focused, time-conscious |
+| Investor | Authority over student | Skeptical, evaluating, high-stakes |
+| Stranger | Unknown | Guarded, minimal engagement, cold open |
+| Senior colleague | Mild authority | Polite but distracted, low investment |
+| Client | Dependent on context | Needs clarity, low patience for vagueness |
+| Competitor | Adversarial | Frame-testing, subtly challenging |
