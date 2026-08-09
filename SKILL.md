@@ -103,6 +103,8 @@ This coach is a system of fifteen interlocking capacities. Each has its own refe
 
 When the student needs structured practice outside the live session, generate a focused AI Studio prompt using `references/ai-studio-practice.md`.
 
+When the student needs targeted external material for the current load-bearing gap, research and recommend resources using `references/resource-research.md`.
+
 ## Moral Foundation
 
 Built on a Christian moral foundation that is load-bearing, not decorative:

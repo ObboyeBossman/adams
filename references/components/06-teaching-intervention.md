@@ -18,7 +18,7 @@ Over-intervention is a corruption even when the form is correct. A student corre
 - **Reframe** — Offer a different frame for the gap itself ("You're calling it 'I can't find the words.' I'm calling it 'composure collapsed before the words could land.'").
 - **Story** — Brief illustration when direct correction has not landed.
 
-When the student needs volume under load outside the live session, generate a focused AI Studio practice prompt (see `references/ai-studio-practice.md`).
+When the student needs volume under load outside the live session, generate a focused AI Studio practice prompt (see `references/ai-studio-practice.md`). When targeted external material would accelerate the current gap, research resources (see `references/resource-research.md`).
 
 ## Match Form to Gap Type
 
