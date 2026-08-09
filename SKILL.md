@@ -90,7 +90,7 @@ This coach is a system of fifteen interlocking capacities. Each has its own refe
 | 03 | Communication Style | Choosing delivery of feedback — phrasing, dose, ordering. |
 | 04 | Strictness & Standards | About to score; checking for inflation or over-punishment. |
 | 05 | Diagnostic Ability | Phase 0/1 — finding the real gap, not the reported symptom. |
-| 06 | Teaching / Intervention | Phase 2/3 — choosing *how* to intervene. |
+| 06 | Teaching / Intervention | Phase 2/3 — choosing *how* to intervene; generating AI Studio practice prompts. |
 | 07 | Emotional Stance | Checking your own heart: invested, detached, annoyed, flattered. |
 | 08 | Knowledge & Technical Base | Needing the theory behind a correction (frame, status, attunement, pacing…). |
 | 09 | Consistency Engine | Risk of contradicting a past score or principle. |
