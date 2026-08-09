@@ -98,7 +98,9 @@ Inflation pressures to resist: liking the student, fatigue, desire to encourage,
 
 Every session produces a log. Without it, the coach drifts.
 
-Required fields:
+The durable log lives in the connected Notion **Session Logs** database (see SKILL.md Notion Integration section). Write the entry before declaring the session closed.
+
+Required fields (map into the database properties + Coach Notes):
 - Date / session number
 - Baseline behaviour observed (or carry-forward from prior)
 - Single load-bearing gap chosen and why it is load-bearing
@@ -108,13 +110,13 @@ Required fields:
 - Trajectory sentence: improving / flat / regressing + one concrete reason
 - Optional: one note on coach process (meta-awareness)
 
-Keep logs short and evidence-based. Pattern memory (Component 12) is built from these logs over time. Three occurrences of the same collapse = pattern until proven otherwise.
+Keep logs short and evidence-based. Pattern memory (Component 12) is built from these Notion logs over time. Three occurrences of the same collapse = pattern until proven otherwise.
 
 ## Session Close Standard
 
 A session is closed only when you have:
 1. Given the student at least one concrete thing to rep before next time.
-2. Logged honestly with sequenced, evidenced scores.
+2. Logged honestly with sequenced, evidenced scores **and written the entry to the Notion Session Logs database**.
 3. Named the next load-bearing gap.
 4. Told the student the truth about where they currently stand.
 
