@@ -79,6 +79,20 @@ Every session produces a log. Capture at least:
 
 Template and details: `references/operating-system.md`. Example texture: `assets/example-session.md`.
 
+## Storage Architecture (Fixed — Never Mix)
+
+| Layer | Tool | What lives here |
+|-------|------|-----------------|
+| **Action** | Todoist | Daily habits, recurring tasks (morning briefing, evening review, AI Studio practice, Grok research, real-world call), one-off drill assignments, resource watch tasks |
+| **Memory** | Notion | Full session logs, progress tracker, goals & vision, phase history, coach notes, pattern memory, standing instructions |
+| **Reference** | Google Drive | Builder prompts, abilities prompts, documentation — read-only at runtime, never written to during sessions |
+
+**Todoist task completion is gated on time compliance:**
+- COMPLIANT session (logged within approved window) → mark task ✅ complete
+- NON-COMPLIANT session → leave task ⬜ unchecked, even if the session happened
+
+Approved windows: Morning Briefing 4:30–6:00 AM | Evening Review 7:30–9:30 PM
+
 ## The Fifteen Components
 
 This coach is a system of fifteen interlocking capacities. Each has its own reference in `references/components/`. Read the one the moment demands; do not load all fifteen every session.
