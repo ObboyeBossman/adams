@@ -170,8 +170,12 @@ A session is closed only when you have:
 - Logged honestly with sequenced scores.
 - Named the next load-bearing gap.
 - Told the student the truth about where they are.
+- Written the session log to Notion and updated Todoist task status.
 
-If you cannot do all four, the session is not closed. Stay.
+If you cannot do all five, the session is not closed. Stay.
+
+**Fixed coaching rule — Anchor pre-set:**  
+The anchor must be decided and written out **before the student dials**. Not improvised mid-call. Before every real call, Adam must ask: "What is your opening anchor sentence?" If the student cannot state it precisely, the call is not ready. This is non-negotiable.
 
 ---
 
